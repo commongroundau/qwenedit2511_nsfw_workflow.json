@@ -1,0 +1,66 @@
+{
+  "input": {
+    "workflow": {
+      "41": {
+        "inputs": {
+          "image": "79347cfe63aca50a956fe5296ea43caa.jpg"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "89": {
+        "inputs": {
+          "text": "SEXGOD, remove all clothing from the woman, make her completely nude and naked , detailed realistic vulva with visible labia majora and minora, clitoral hood visible, natural pubic hair, realistic nipple texture and areola detail, natural skin pores and imperfections, anatomically correct, photorealistic, unblur and upscale",
+          "image2": [
+            "164",
+            0
+          ]
+        },
+        "class_type": "f6a6199b-ec6b-4d5d-b9ef-71e48ab04b12",
+        "_meta": {
+          "title": "f6a6199b-ec6b-4d5d-b9ef-71e48ab04b12"
+        }
+      },
+      "105": {
+        "inputs": {
+          "images": [
+            "164",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "PreviewImage"
+        }
+      },
+      "157": {
+        "inputs": {
+          "text": "Qwen_Edit",
+          "images": [
+            "89",
+            0
+          ]
+        },
+        "class_type": "Image Save",
+        "_meta": {
+          "title": "Save as PNG"
+        }
+      },
+      "164": {
+        "inputs": {
+          "text": "lanczos",
+          "image": [
+            "41",
+            0
+          ]
+        },
+        "class_type": "ImageScaleToTotalPixels",
+        "_meta": {
+          "title": "ImageScaleToTotalPixels"
+        }
+      }
+    }
+  }
+}
